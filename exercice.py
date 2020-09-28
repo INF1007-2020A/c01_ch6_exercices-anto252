@@ -4,27 +4,28 @@
 
 def order(values: list = None) -> bool:
     if values is None:
-        # TODO: Demander les valeurs ici
-        pass
-
-    return False
+        values = [input("saisir 10 lettres :") for _ in range(10)]
+        
+    return values == sorted(values)
 
 
 def anagrams(words: list = None) -> bool:
     if words is None:
-        # TODO: Demander les mots ici
-        pass
+        words = [input("saisir deux chaines de carachtères :") for _ in range(2)]
+        words[0] = sorted(words[0])
+        words[1] = sorted(words[1])
 
-    return False
+    return words[0] == words[1]
 
 
 def contains_doubles(items: list) -> bool:
+    
     return False
 
 
-def best_grades(student_grades: dict) -> dict:
+def best_grades(student_grades: dict) -> tuple:
     # TODO: Retourner un dictionnaire contenant le nom de l'étudiant ayant la meilleure moyenne ainsi que sa moyenne
-    return {}
+    return name, result
 
 
 def histogram(sentence: str) -> tuple:
@@ -47,10 +48,10 @@ def print_recipe(ingredients) -> None:
 
 def main() -> None:
     print(f"On essaie d'ordonner les valeurs...")
-    order()
+    print(order())
 
     print(f"On vérifie les anagrammes...")
-    anagrams()
+    print(anagrams())
 
     my_list = [3, 3, 5, 6, 1, 1]
     print(f"Ma liste contient-elle des doublons? {contains_doubles(my_list)}")
