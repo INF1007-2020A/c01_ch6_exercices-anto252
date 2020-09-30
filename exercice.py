@@ -39,14 +39,11 @@ def best_grades(student_grades: dict) -> tuple:
     return nom, note
 
 
+ phrase = intput("saisir une phrase :")
 def histogram(sentence: str) -> tuple:
-    # TODO: Créer l'histogramme a l'aide d'un dictionnaire
-    #       Afficher l'histogramme et les lettres les plus fréquentes
-    #       Retourner l'histogramme et le tableau de lettres
-    phrase = intput("saisir une phrase :")
-
+    
     for letter in phrase:
-        
+
     return {}, []
 
 
