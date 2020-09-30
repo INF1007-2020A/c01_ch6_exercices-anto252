@@ -51,8 +51,6 @@ def histogram(sentence: str) -> tuple:
 
     return {}, []
 
-sentence = input("Donnez une phrase: ")
-histogram(sentence)
 
 
 def get_recipes():
