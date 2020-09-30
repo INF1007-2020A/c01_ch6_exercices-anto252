@@ -31,8 +31,8 @@ def best_grades(student_grades: dict) -> tuple:
         student_grades[student] = sum(student_grades[student]) / len(student_grades[student])
         list_student.append(student)
         list_grades.append(student_grades[student])
-        
-    for student in range(len(list_student)-1):
+
+    for student in range(len(list_student)):
         if list_grades[student] > list_grades[student-1]:
             nom = list_student[student]
             note = list_grades[student]
