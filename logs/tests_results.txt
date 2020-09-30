@@ -1,20 +1,8 @@
 test_anagram (__main__.TestExercice) ... FAIL
 test_doubles (__main__.TestExercice) ... FAIL
-test_grades (__main__.TestExercice) ... ERROR
+test_grades (__main__.TestExercice) ... FAIL
 test_histogram (__main__.TestExercice) ... FAIL
 test_order (__main__.TestExercice) ... FAIL
-
-======================================================================
-ERROR: test_grades (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 63, in test_grades
-    output = [exercice.best_grades(v) for v in values]
-  File "test_exercice.py", line 63, in <listcomp>
-    output = [exercice.best_grades(v) for v in values]
-  File "/home/runner/work/c01_ch6_exercices-anto252/c01_ch6_exercices-anto252/exercice.py", line 33, in best_grades
-    return name, result
-NameError: name 'name' is not defined
 
 ======================================================================
 FAIL: test_anagram (__main__.TestExercice)
@@ -47,6 +35,14 @@ True
 + [False, True] : Erreur dans les doublons
 
 ======================================================================
+FAIL: test_grades (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 69, in test_grades
+    'Erreur dans les notes'
+AssertionError: [('Sam', 100.0)] is not an instance of <class 'dict'> : First argument is not a dictionary
+
+======================================================================
 FAIL: test_histogram (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
@@ -72,4 +68,4 @@ False
 ----------------------------------------------------------------------
 Ran 5 tests in 0.001s
 
-FAILED (failures=4, errors=1)
+FAILED (failures=5)
