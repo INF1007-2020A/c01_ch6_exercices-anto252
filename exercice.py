@@ -78,6 +78,10 @@ def main() -> None:
     grades = {"Bob": [90, 65, 20], "Alice": [85, 75, 83]}
     name, result = best_grades(grades)
     print(f"{name} a la meilleure moyenne: {result}")
+
+    sentence = input("Donnez une phrase: ")
+histogram(sentence)
+
     
     print("On enregistre les recettes...")
     recipes = get_recipes()
