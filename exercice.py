@@ -24,7 +24,7 @@ def contains_doubles(items: list) -> bool:
 
 
 def best_grades(student_grades: dict) -> tuple:
-    # TODO: Retourner un dictionnaire contenant le nom de l'étudiant ayant la meilleure moyenne ainsi que sa moyenne
+    
     return name, result
 
 
