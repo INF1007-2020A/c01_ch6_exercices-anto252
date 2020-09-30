@@ -44,11 +44,14 @@ def histogram(sentence: str) -> tuple:
     # TODO: Créer l'histogramme a l'aide d'un dictionnaire
     #       Afficher l'histogramme et les lettres les plus fréquentes
     #       Retourner l'histogramme et le tableau de lettres
-    phrase = intput("saisir une phrase :")
+    sentence = intput("saisir une phrase :")
 
     for letter in phrase:
 
     return {}, []
+
+sentence = input("Donnez une phrase: ")
+histogram(sentence)
 
 
 def get_recipes():
