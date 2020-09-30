@@ -47,7 +47,7 @@ def histogram(sentence: str) -> tuple:
     sentence = input("saisir une phrase :")
 
     for letter in sentence:
-        print(sentence.count(a))
+        print(sentence.count(a, ))
 
     return {}, []
 
