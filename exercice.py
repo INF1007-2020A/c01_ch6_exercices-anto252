@@ -60,6 +60,7 @@ def histogram(sentence: str) -> tuple:
 
 def get_recipes():
     # TODO: Demander le nom d'une recette, puis ses ingrédients et enregistrer dans une structure de données 
+    
     pass
 
 
