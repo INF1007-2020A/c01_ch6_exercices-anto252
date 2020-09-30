@@ -53,7 +53,7 @@ def histogram(sentence: str) -> tuple:
 
     MOST_FREQUENT_CHARS = [k for k, v in histogram.items() if v > 5 and k != " "]
 
-    return {}, 
+    return hist, MOST_FREQUENT_CHARS
 
 sentence = input("Donnez une phrase: ")
 histogram(sentence)
