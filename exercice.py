@@ -44,6 +44,8 @@ def histogram(sentence: str) -> tuple:
     #       Afficher l'histogramme et les lettres les plus fréquentes
     #       Retourner l'histogramme et le tableau de lettres
     phrase = intput("saisir une phrase :")
+
+    
     return {}, []
 
 
