@@ -28,7 +28,7 @@ def best_grades(student_grades: dict) -> tuple:
     nom, note = None, None
 
     for student in student_grades:
-        student_grades
+        student_grades[]
 
     return name, result
 
