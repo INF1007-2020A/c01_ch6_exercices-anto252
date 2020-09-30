@@ -45,7 +45,8 @@ def histogram(sentence: str) -> tuple:
     #       Retourner l'histogramme et le tableau de lettres
     phrase = intput("saisir une phrase :")
 
-    
+    for letter in phrase:
+        
     return {}, []
 
 
