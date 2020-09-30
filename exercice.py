@@ -43,6 +43,7 @@ def histogram(sentence: str) -> tuple:
     # TODO: Créer l'histogramme a l'aide d'un dictionnaire
     #       Afficher l'histogramme et les lettres les plus fréquentes
     #       Retourner l'histogramme et le tableau de lettres
+    hist {}
     for letter in sentence:
         if letter in hist:
             hist[char] += 1
