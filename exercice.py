@@ -55,13 +55,15 @@ def histogram(sentence: str) -> tuple:
 
     return hist, MOST_FREQUENT_CHARS
 
-sentence = input("Donnez une phrase: ")
-histogram(sentence)
+
 
 
 def get_recipes():
     # TODO: Demander le nom d'une recette, puis ses ingrédients et enregistrer dans une structure de données 
     pass
+
+
+
 
 
 def print_recipe(ingredients) -> None:
