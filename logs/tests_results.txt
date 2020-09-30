@@ -70,6 +70,6 @@ False
 + [[-2, 1, 6, 9], ['2', 'a', 'hello']] : Mauvais ordre
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.002s
+Ran 5 tests in 0.001s
 
 FAILED (failures=4, errors=1)
