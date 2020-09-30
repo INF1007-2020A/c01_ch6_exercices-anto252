@@ -25,7 +25,9 @@ def contains_doubles(items: list) -> bool:
 
 def best_grades(student_grades: dict) -> tuple:
     list_student, list_grades = [], []
-    nom, note = 
+    nom, note = None, None
+
+    for studen
 
     return name, result
 
