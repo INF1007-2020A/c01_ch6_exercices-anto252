@@ -49,7 +49,7 @@ def histogram(sentence: str) -> tuple:
         else:
         hist[char] = 1
     
-
+    
 
     return {}, []
 
