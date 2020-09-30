@@ -46,7 +46,9 @@ def histogram(sentence: str) -> tuple:
     #       Retourner l'histogramme et le tableau de lettres
     for letter in sentence:
         if letter in hist:
-            hist[char] +=
+            hist[char] += 1
+        else ;
+        hist[char]
 
     return {}, []
 
