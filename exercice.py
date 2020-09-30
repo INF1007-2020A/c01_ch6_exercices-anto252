@@ -45,7 +45,7 @@ def histogram(sentence: str) -> tuple:
     #       Afficher l'histogramme et les lettres les plus fréquentes
     #       Retourner l'histogramme et le tableau de lettres
     for letter in sentence:
-        if letter in histogram
+        if letter in histogr
 
     return {}, []
 
