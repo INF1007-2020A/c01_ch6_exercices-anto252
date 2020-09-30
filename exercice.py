@@ -39,7 +39,6 @@ def best_grades(student_grades: dict) -> tuple:
     return nom, note
 
 
-hist = a
 def histogram(sentence: str) -> tuple:
     # TODO: Créer l'histogramme a l'aide d'un dictionnaire
     #       Afficher l'histogramme et les lettres les plus fréquentes
@@ -49,6 +48,8 @@ def histogram(sentence: str) -> tuple:
             hist[char] += 1
         else:
         hist[char] = 1
+    
+
 
     return {}, []
 
