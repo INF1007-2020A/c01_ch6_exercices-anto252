@@ -48,7 +48,7 @@ def histogram(sentence: str) -> tuple:
         if char in hist:
             hist[char] += 1
         else:
-        hist[char] = 1
+            hist[char] = 1
     
 
     MOST_FREQUENT_CHARS = [k for k, v in hist.items() if v > 5 and k != " "]
