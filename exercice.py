@@ -80,7 +80,7 @@ def main() -> None:
     print(f"{name} a la meilleure moyenne: {result}")
 
     sentence = input("Donnez une phrase: ")
-histogram(sentence)
+    histogram(sentence)
 
     
     print("On enregistre les recettes...")
