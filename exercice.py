@@ -49,7 +49,7 @@ def histogram(sentence: str) -> tuple:
         else:
         hist[char] = 1
     
-    
+    chars = [key for key, value in histogram.items() if value > 5 and key != " "]
 
     return {}, []
 
