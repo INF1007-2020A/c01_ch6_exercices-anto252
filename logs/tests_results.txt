@@ -12,7 +12,7 @@ Traceback (most recent call last):
     output = [exercice.best_grades(v) for v in values]
   File "test_exercice.py", line 63, in <listcomp>
     output = [exercice.best_grades(v) for v in values]
-  File "/home/runner/work/c01_ch6_exercices-anto252/c01_ch6_exercices-anto252/exercice.py", line 29, in best_grades
+  File "/home/runner/work/c01_ch6_exercices-anto252/c01_ch6_exercices-anto252/exercice.py", line 33, in best_grades
     return name, result
 NameError: name 'name' is not defined
 
