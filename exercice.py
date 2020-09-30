@@ -47,6 +47,7 @@ def histogram(sentence: str) -> tuple:
     sentence = input("saisir une phrase :")
 
     for letter in sentence:
+        
 
     return {}, []
 
